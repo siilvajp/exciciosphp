@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+<form method="get">
+    <fieldset>
+
+    
+        <legend>Dados Pessoasis</legend>
+    <div>
+        <label for="idNome">Nome</label>
+        <input type="text" name="Nome" id="idNome"
+        placeholder="Digite Seu Nome:">
+    
+    </div>
+
+    <p>
+        <div>
+            <label for="diaa">Data de Nascimento: </label>
+            <input type="date" id="diaa" name="diaa">
+        </div>
+    </p>
+
+    <p>
+        <div>
+            <p>
+            Endereço:
+            </p>
+            <label for="Logradouro">Logradouro:</label>
+            <input type="text" id="Logradouro" name="Logradouro">
+
+            <p>
+            <label for="Bairro">Bairro:</label>
+            <input type="text" id="Bairro" name="Bairro">
+            </p>
+
+            <p>
+            <label for="Cidade">Cidade:</label>
+            <input type="text" id="Cidade" name="Cidade">
+            </p>
+        </div>
+    </p>
+
+    <p>
+        <div>
+            <label>Sexo:</label>
+            <label>
+                <input type="radio" name="sexo" value="Masculino">Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="Feminino">Feminino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="Prefiro não informar">Prefiro não informar
+            </label>
+        </div>
+    </p>
+
+    <p>
+    <div>
+            <label for="cars">UF:</label>
+            <select id="cars" name="cars">
+                <option selected disabled value="">Selecione:</option>
+              <option value="AC">AC</option>
+              <option value="AL">AL</option>
+              <option value="AM">AM</option>
+              <option value="AP">AP</option>
+              <option value="BA">BA</option>
+              <option value="CE">CE</option>
+              <option value="DF">DF</option>
+              <option value="ES">ES</option>
+              <option value="GO">GO</option>
+              <option value="MA">MA</option>
+              <option value="MT">MT</option>
+              <option value="MS">MS</option>
+              <option value="MG">MG</option>
+              <option value="PA">PA</option>
+              <option value="PB">PB</option>
+              <option value="PR">PR</option>
+              <option value="PE">PE</option>
+              <option value="PI">PI</option>
+              <option value="RJ">RJ</option>
+              <option value="RN">RN</option>
+              <option value="RS">RS</option>
+              <option value="RO">RO</option>
+              <option value="RR">RR</option>
+              <option value="SC">SC</option>
+              <option value="SP">SP</option>
+              <option value="SE">SE</option>
+              <option value="TO">TO</option>
+            </select>
+    </p>
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" name="email" id="email">
+    </div>
+ 
+<p>
+    <div>
+    <input type="submit" value="Enviar">
+    <input type="submit" value="Limpar">
+    </div>
+</p>
+</form>
+    
+</body>
+</html>
